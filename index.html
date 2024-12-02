@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+    SITE 1101 Principles of Information Systems
+    (c)2024 by Egor Martynov
+    Submitted in partial fulfillment of the requirements of the course.
+-->
+<html>
+
+<head>
+  <title>Welcome</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer type="text/javascript" src="main.js"></script>
+</head>
+
+<body style="display: flex; flex-direction: column">
+  <header>
+    <div class="header__container">
+      <button class="button" id="burgerButton">
+        contents
+      </button>
+
+      <h1>️Welcome!</h1>
+
+      <div style="height: inherit">
+        <a href="./index.html">
+          <img class="header__logo" height="72" src="assets/logo/ada_logo_color.png" alt="ada logo">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div id="clickout" class="clickout"></div>
+  <nav id="navigation" class="navigation">
+
+    <div class="navigation__container">
+
+      <h2>Contents</h2>
+
+      <div>
+        <ul class="navigation__links">
+          <li><a href="./pages/team-members/team-members.html">Our Team</a></li>
+          <li><a href="./pages/hour-of-code/hour-of-code.html">Hour of Code</a></li>
+          <li><a href="./pages/web-project/web-project.html">Web Project</a></li>
+          <li><a href="./pages/code-artist/code-artist.html">Code art (feat. Araz Yusubov)</a></li>
+          <li><a href="./index.html">Home page</a></li>
+        </ul>
+      </div>
+
+      <button class="button navigation__button" id="navButton">close</button>
+    </div>
+  </nav>
+
+  <main style="display: flex; flex-direction: column; align-items: center; padding: 2rem;">
+
+    <p class="welcome__paragraph">Welcome to our first website, created with simple HTML, CSS, and JS technologies.
+      There are four of us in the
+      team - <a href="./pages/web-project/web-project.html">Fidan Khalilova</a>,
+      <a href="./pages/team-members/team-members.html">Nazli Nasirli</a>,
+      <a href="./pages/hour-of-code/hour-of-code.html">Asma Hajizada</a>,
+      and <a href="./pages/code-artist/code-artist.html">Egor Martynov</a>.
+    </p>
+    <p class="welcome__paragraph">This website will lead you through some interesting stories about our team, our
+      projects, and some other experiences
+      we had during the course. To get started, please visit the contents of our website.</p>
+    <p class="welcome__paragraph">Thank you for visiting! We hope you find this website enjoyable.</p>
+  </main>
+
+  <footer style="margin-top: auto;">
+    <p><img src="../../assets/logo/ada_logo_white.png" height="33" alt="ada logo" /></p>
+    <p style="padding: 4px;">ADA University | SITE 1101 | 2024</p>
+  </footer>
+</body>
+
+</html>
